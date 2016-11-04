@@ -9,15 +9,9 @@ const network = require('on-change-network');
     http://superuser.com/questions/358513/start-configured-vpn-from-command-line-osx
 */
 
-/*
-  Icon is Broadcast by Montu Yadav
-  https://thenounproject.com/term/broadcast/201837/
-  https://creativecommons.org/licenses/by/3.0/legalcode
-*/
-
 const params = {
   index: `file://${__dirname}/index.html`,
-  icon: './assets/icon.png',
+  icon: './assets/iconTemplate.png',
 };
 
 const mb = menubar(params);
